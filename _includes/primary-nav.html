@@ -1,0 +1,29 @@
+<header>
+	<img src="/img/text-logo.svg">
+
+	<nav>
+		<ul>
+			<li class="nav-item top-level {% if page.url == '/' %}current{% endif %}">
+				<a href="/">Главная</a>
+			</li>
+			<li class="nav-item top-level {% if page.url contains '/services/' %}current{% endif %}">
+				<a href="{{ site.services.first.url }}">Услуги</a>
+				{% assign services_items = site.services | sort: 'order' %}
+				{% include secondary-nav-items.html items=services_items %}
+			</li>
+
+			<li class="nav-item top-level {% if page.url contains '/articles/' %}current{% endif %}">
+				<a href="{{ site.articles.first.url }}">Статьи</a>
+				{% include secondary-nav-items.html items=site.articles %}
+			</li>
+
+			<li class="nav-item top-level">
+				<a href="/map/">Карта</a>
+			</li>
+		</ul>
+
+		<p class="maintained">
+			Made by <a href="https://github.com/rmrfroot">rmrfroot</a>
+		</p>
+	</nav>
+</header>
