@@ -1,0 +1,24 @@
+{
+  "name": "compfixcomua.github.io",
+  "version": "0.0.0",
+  "description": "",
+  "main": "express.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/compfixcomua/compfixcomua.github.io.git"
+  },
+  "author": "rmrfroot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/compfixcomua/compfixcomua.github.io/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1"
+  }
+}
