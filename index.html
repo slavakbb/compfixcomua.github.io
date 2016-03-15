@@ -17,26 +17,41 @@
 <body>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
-      <div class="mdl-layout__header-row mdl-layout--large-screen-only just-around">
+      <div class="mdl-layout__header-row mdl-layout--large-screen-only">
+        <!-- Title -->
         <h1 class="mdl-layout-title">Сервисный центр "РЕТОН"</h1>
-        <!-- <p>Ремонт Электронной Техники Обслуживание Настройка</p> -->
-      </div>
-      <!-- <div class="mdl-layout__header-row">
-        <p>+38(0542)679797, +38(066)7633650, пер. Промышленый 12/1, Пн-Пт 10:00-18:00 Сб 10:00-16:00</p>
-      </div> -->
-      <div class="mdl-layout__header-row">
-        <nav class="mdl-navigation">
-          <a href="" class="mdl-navigation__link is-active">Услуги</a>
-          <a href="" class="mdl-navigation__link">Статьи</a>
-          <a href="" class="mdl-navigation__link">Новости</a>
-          <a href="" class="mdl-navigation__link">О компании</a>
-          <a href="" class="mdl-navigation__link">Контакты</a>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a href="" class="mdl-navigation__link"><span class="mdl-typography--title">Услуги</span></a>
+          <a href="" class="mdl-navigation__link"><span class="mdl-typography--title">Статьи</span></a>
+          <a href="" class="mdl-navigation__link"><span class="mdl-typography--title">Новости</span></a>
+          <a href="" class="mdl-navigation__link"><span class="mdl-typography--title">О компании</span></a>
+          <a href="" class="mdl-navigation__link"><span class="mdl-typography--title">Контакты</span></a>
         </nav>
       </div>
     </header>
+
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">СЦ "РЕТОН"</span>
+      <nav class="mdl-navigation">
+        <a href="" class="mdl-navigation__link">Услуги</a>
+        <a href="" class="mdl-navigation__link">Статьи</a>
+        <a href="" class="mdl-navigation__link">Новости</a>
+        <a href="" class="mdl-navigation__link">О компании</a>
+        <a href="" class="mdl-navigation__link">Контакты</a>
+      </nav>
+    </div>
+
     <div class="mdl-layout__content">
       <div id="main">
         <main role="main">
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--hide-phone"><span class="mdl-typography--title mdl-typography--text-center"><i class="material-icons">local_phone</i> +38(0542)679797</span></div>
+            <div class="mdl-cell"><span class="mdl-typography--title mdl-typography--text-center"><i class="material-icons">phone</i> +38(066)7633650</span></div>
+            <div class="mdl-cell"><a href=""><span class="mdl-typography--title mdl-typography--text-center"><i class="material-icons">place</i> пер. Промышленый 12/1</span></a></div>
+          </div>
           <header class="mdl-grid mdl-shadow--6dp just-around">
             <h2>Услуги</h2>
           </header>
@@ -46,7 +61,7 @@
                 <h3 class="mdl-card__title-text">Продажа компьютерной техники</h3>
               </div>
               <div class="mdl-card__supporting-text">
-              <p>СЦ "РЕТОН" занимается продажей компьютеров, ноутбуков, серверов, проекторов, жк и плазменных панелей. Благодаря прямым поставкам цены вас не разочаруют!</p>
+                <p>СЦ "РЕТОН" занимается продажей компьютеров, ноутбуков, серверов, проекторов, жк и плазменных панелей. Благодаря прямым поставкам цены вас не разочаруют!</p>
               </div>
             </div>
             <div class="mdl-cell mdl-card mdl-shadow--4dp">
@@ -54,7 +69,7 @@
                 <h3 class="mdl-card__title-text">Ремонт ноутбуков</h3>
               </div>
               <div class="mdl-card__supporting-text">
-              <p>Осуществляем срочный и постгарантийный ремонт, сервисное обслуживание, диагностику и модернизацию ноутбуков в Сумах. У нас работают высококлассные инженеры с огромным опытом работы. Если ваш ноутбук поламался, скорее несите его к нам!</p>
+                <p>Осуществляем срочный и постгарантийный ремонт, сервисное обслуживание, диагностику и модернизацию ноутбуков в Сумах. У нас работают высококлассные инженеры с огромным опытом работы. Если ваш ноутбук поламался, скорее несите его к нам!</p>
               </div>
             </div>
             <div class="mdl-cell mdl-card mdl-shadow--4dp">
@@ -62,8 +77,8 @@
                 <h3 class="mdl-card__title-text">Ремонт компьютеров</h3>
               </div>
               <div class="mdl-card__supporting-text">
-              <p>Мы предлагаем вам качественно и быстро устранить неполадки в вашем компьютере и предоставляем такие услуги как: ремонт деталей или комплекс таких замен, различные технологические доработки, ремонт материнской платы, блока питания, модернизация
-                компьютера, а так же тестирование и настройка компьютерного оборудования.</p>
+                <p>Мы предлагаем вам качественно и быстро устранить неполадки в вашем компьютере и предоставляем такие услуги как: ремонт деталей или комплекс таких замен, различные технологические доработки, ремонт материнской платы, блока питания, модернизация
+                  компьютера, а так же тестирование и настройка компьютерного оборудования.</p>
               </div>
             </div>
             <div class="mdl-cell mdl-card mdl-shadow--4dp">
@@ -71,8 +86,9 @@
                 <h3 class="mdl-card__title-text">Установка ОС и ПО</h3>
               </div>
               <div class="mdl-card__supporting-text">
-              <p>Установка Windows и *nix (Linux, Unix) систем, настройка операционной системы и системных служб. Установка любых необходимых вам программ, квалифицированная настройка программного обеспечения. Удаление вирусов и надежная защита от них в
-                дальнейшем.</p>
+                <p>Установка Windows и *nix (Linux, Unix) систем, настройка операционной системы и системных служб. Установка любых необходимых вам программ, квалифицированная настройка программного обеспечения. Удаление вирусов и надежная защита от них
+                  в дальнейшем.
+                </p>
               </div>
             </div>
             <div class="mdl-cell mdl-card mdl-shadow--4dp">
@@ -80,7 +96,7 @@
                 <h3 class="mdl-card__title-text">Ремонт мониторов</h3>
               </div>
               <div class="mdl-card__supporting-text">
-              <p>Ремонт ЖК мониторов любых моделей. Мы предлагаем услуги по ремонту такие как диагностика, чистка плат, замена комплектующих, замена матрицы, тестирование, ремонт блока питания.</p>
+                <p>Ремонт ЖК мониторов любых моделей. Мы предлагаем услуги по ремонту такие как диагностика, чистка плат, замена комплектующих, замена матрицы, тестирование, ремонт блока питания.</p>
               </div>
             </div>
             <div class="mdl-cell mdl-card mdl-shadow--4dp">
@@ -88,7 +104,7 @@
                 <h3 class="mdl-card__title-text">Ремонт принтеров</h3>
               </div>
               <div class="mdl-card__supporting-text">
-              <p>Ремонт струйных и лазерных принтеров, факсов, копиров, МФУ. Заправка и реставрация картриджей. Поставка картриджей, расходных материалов и офисной техники.</p>
+                <p>Ремонт струйных и лазерных принтеров, факсов, копиров, МФУ. Заправка и реставрация картриджей. Поставка картриджей, расходных материалов и офисной техники.</p>
               </div>
             </div>
             <div class="mdl-cell mdl-card mdl-shadow--4dp">
@@ -96,7 +112,7 @@
                 <h3 class="mdl-card__title-text">Ремонт планшетов</h3>
               </div>
               <div class="mdl-card__supporting-text">
-              <p>Сервисный центр РЕТОН предоставляет полный спектр услуг по ремонту планшетов и электронных книг в Сумах. Гарантия качества, низкие цены. Перепрошивка, установка игр и программ.</p>
+                <p>Сервисный центр РЕТОН предоставляет полный спектр услуг по ремонту планшетов и электронных книг в Сумах. Гарантия качества, низкие цены. Перепрошивка, установка игр и программ.</p>
               </div>
             </div>
             <div class="mdl-cell mdl-card mdl-shadow--4dp">
@@ -104,7 +120,7 @@
                 <h3 class="mdl-card__title-text">Ремонт мобильных телефонов</h3>
               </div>
               <div class="mdl-card__supporting-text">
-              <p>Быстрый и качественный ремонт мобильных телефонов, смартфонов, КПК и коммуникаторов в Сумах. Гарантия качества, низкие цены. Перепрошивка, установка игр и программ.</p>
+                <p>Быстрый и качественный ремонт мобильных телефонов, смартфонов, КПК и коммуникаторов в Сумах. Гарантия качества, низкие цены. Перепрошивка, установка игр и программ.</p>
               </div>
             </div>
             <div class="mdl-cell mdl-card mdl-shadow--4dp">
@@ -112,13 +128,13 @@
                 <h3 class="mdl-card__title-text">Ремонт навигаторов и видеорегистраторов</h3>
               </div>
               <div class="mdl-card__supporting-text">
-              <p>Сломался навигатор или видеорегистратор? Звоните и приносите! Ремонт навигаторов и видеорегистраторов в городе Сумы. Замена стекла, разъема, ремонт кнопок, установка ПО.</p>
+                <p>Сломался навигатор или видеорегистратор? Звоните и приносите! Ремонт навигаторов и видеорегистраторов в городе Сумы. Замена стекла, разъема, ремонт кнопок, установка ПО.</p>
               </div>
             </div>
           </section>
         </main>
       </div>
-      <aside>
+      <!-- <aside>
         <section>
           <h4>Последние статьи</h4>
           <article class="">
@@ -131,7 +147,7 @@
 
           </article>
         </section>
-      </aside>
+      </aside> -->
       <footer class="mdl-mega-footer">
         <div class="mdl-mega-footer__middle-section">
           <div>
