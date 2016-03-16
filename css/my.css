@@ -1,7 +1,55 @@
-.layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
-  padding-right: 0;
+/*Globals*/
+html, body {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.just-around {
-  justify-content: space-around;;
+.main a {
+  text-decoration: none;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+.mdl-layout-title {
+  font-weight: 500;
+}
+.mdl-navigation__link {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section-header {
+  justify-content: center;
+}
+.section-services {
+  max-width: 1000px;
+  justify-content: space-around;
+}
+.section-services>.mdl-cell {
+  
+}
+
+/*TODO imgs and sizes*/
+.mdl-card__title {
+
+}
+
+.mdl-mega-footer--heading, .mdl-mega-footer__heading, .mdl-mega-footer--link-list li, .mdl-mega-footer__link-list li {
+  font-size: 16px;
+  line-height: 24px;
 }
