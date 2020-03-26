@@ -1,5 +1,5 @@
 
 // Куки
 
-response.cookie('same-site-cookie', 'foo', { sameSite: 'lax' });
-response.cookie('cross-site-cookie', 'bar', { sameSite: 'none', secure: true });
+response.cookie('compfix.com.ua', 'foo', { sameSite: 'lax' });
+response.cookie('compfix.com.ua', 'bar', { sameSite: 'none', secure: true });
